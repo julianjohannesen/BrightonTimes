@@ -1,4 +1,11 @@
-# Cache-control of 1 Month for most static assets
-<filesMatch ".(jpg|jpeg|png|gif|ico|svg)$">
+# Cache-control 
+
+# 1 Month for most static assets
+<filesMatch ".(jpg|jpeg|png|gif|ico|svg|js|css)$">
 Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+# Do not cache main.css or main.js
+<filesMatch ".(main.css|main.js)$">
+Header set Cache-Control "no-store"
 </filesMatch>
