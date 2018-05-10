@@ -1,0 +1,31 @@
+{
+  "name": "brightontimes",
+  "version": "1.0.0",
+  "description": "A community blog ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianjohannesen/BrightonTimes.git"
+  },
+  "keywords": [
+    "mockup",
+    "blog",
+    "fend"
+  ],
+  "author": "Julian <Julian.Johannesen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianjohannesen/BrightonTimes/issues"
+  },
+  "homepage": "https://github.com/julianjohannesen/BrightonTimes#readme",
+  "dependencies": {
+    "picturefill": "^3.0.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-respimg": "^1.1.0"
+  }
+}
